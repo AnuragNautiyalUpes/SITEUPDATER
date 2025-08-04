@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 # Path to your master Excel file (relative or absolute)
-EXCEL_PATH = "D:\TEST\BALNK SITES.xlsx"
+EXCEL_PATH = "D:\TEST\SiteMaster.xlsx"
 # Load Excel
 if not os.path.exists(EXCEL_PATH):
    st.error("Excel file not found. Upload 'SiteMaster.xlsx' to this folder.")
